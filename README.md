@@ -12,4 +12,4 @@ Image compression using k-means clustering implemented in OpenMP and OpenCL. Pro
 3. Put the image you want to compress in images
 4. Run `./k-means-gpu`
 
-The repo is still in progress, better documentation is coming soon. Detailed report is avilable [a here](Project assignment.pdf)
+The repo is still in progress, better documentation is coming soon. Detailed report is avilable [a here](https://github.com/in-droid/image-compression-k-means/blob/main/Project%20assignment.pdf)
