@@ -10,6 +10,6 @@ Image compression using k-means clustering implemented in OpenMP and OpenCL. Pro
 1. Run `module load CUDA` so you can use OpenCL
 2. Compile the file k-means-gpu.c using `gcc  k-means-gpu.c -fopenmp -O2 -lm -lOpenCL -Wl,-rpath,./ -L./ -l:"libfreeimage.so.3" -o k-means-gpu -Wall -Wextra`
 3. Put the image you want to compress in images
-4. Run k-means-gpu
+4. Run `./k-means-gpu`
 
 The repo is still in progress, better documentation is coming soon.
